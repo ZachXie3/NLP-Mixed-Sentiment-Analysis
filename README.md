@@ -7,7 +7,7 @@
 
 Traditional ML approaches to sentiment analysis would evaluate the context together, which might simply classify this text as neutral and lose critical sentiment information.
 
-**Goal**
+**Goal:**
 The tweet above shall be classified as "positive" for "QueenElizabeth", and "negative" (or "neutral") for "KingCharles".
 
 **Innovation**: 
