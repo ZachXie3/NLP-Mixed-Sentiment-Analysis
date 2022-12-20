@@ -5,7 +5,10 @@
 **Problem**: Tweet context often contains multiple opinions towards different subjects. An example is, 
 > We all love and miss #QueenElizabeth, the passing of her is a loss for the whole world. #KingCharles is not ready to lead England out of this crisis.
 
-Traditional ML approaches to sentiment analysis would evaluate the context together, which might simply assert this text as neutral and lose critical sentiment information.
+Traditional ML approaches to sentiment analysis would evaluate the context together, which might simply classify this text as neutral and lose critical sentiment information.
+
+**Goal**
+The tweet above shall be classified as "positive" for "QueenElizabeth", and "negative" (or "neutral") for "KingCharles".
 
 **Innovation**: 
 - Use Local Interpretable Model-Agnostic Explanations (**LIME**) to extract top keywords (also referred to as features) with the highest **similarity score** towards tweet labeling for each tweet in the entire training dataset.
